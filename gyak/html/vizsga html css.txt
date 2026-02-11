@@ -1,0 +1,58 @@
+1.pont 1. sor ⦁	Nyissa meg az index.html állományt és helyezzen el benne a HTML5-ös definíciót! – 1p  
+
+2.pont 2,4,5. sor⦁	Állítsa be az oldal kódolását UTF-8-ra, a nyelvet magyarra, szerzőjét pedig a saját nevére! – 2p
+
+3.pont 8-10. sor⦁	Az index.html állományban helyezzen el hivatkozást a megfelelő helyekre, a styles.css, illetve a Bootstrap bekötéséhez szükséges állományokra! – 2p
+
+4 pont 12. sor⦁	A böngésző címsorában megjelenő cím „Kobe Bryant” legyen! – 1p
+
+5.pont 6. sor⦁	Helyezze el a megfelelő helyre a viewport elemet! – 1p
+
+6.pont 18-37. sor⦁	Hozzon létre fejlécet (header) az oldaltörzs elején, ami az oldal címét és a Bootstrap navigációs sávot tartalmazza! – 1p
+
+7.pont 38. sor⦁	A szakaszokat tartalmazó div-hez rendelje a container osztályazonosítót (class)! – 1p
+
+8.pont 19,40,42-63. sor⦁	Hozza létre a h1-h2-es címsorokat és a bekezdéseket a mintának megfelelően! – 2p
+
+9.pont 33-35. sor⦁	A meglévő három menüpont mintájára hozzon létre a megfelelő helyen egy új menüpontot „ Galéria” szöveggel! Az új menüpont a „galeria” azonosítójú szakaszra mutasson! – 1p
+
+10.pont 86-122. sor⦁	Alakítsa ki a táblázatot a mintának megfelelően! Az első oszlopba fejléctípusú cellák kerüljenek! – 2p
+
+11.pont 110. sor⦁	A táblázatban a „Csapat adatok” sort helyezze el egy összevont cellákat tartalmazó sorban és Bootstrap stílusosztály segítségével igazítsa középre az összevont cellák tartalmát! – 2p
+
+12.pont 130-176. sor⦁	Bootstrap stílusosztályok és a szükséges html elemek segítségével rendezze hármas oszlopba a képeket és lássa el őket img-thumbnail osztályazonosítóval! – 2p
+
+13.pont 181-183. sor⦁	 A weboldal végén (footer) készítse el értelemszerűen a forrás URL-ekhez tartozó hivatkozást a minta szerint! Az URL címet az url.txt állományban találja. Oldja meg, hogy a forrás hivatkozás minden esetben új oldalon nyíljon meg! – 2p
+
+14.pont 20. sor⦁ 	Szúrja be a bryant.jpg képet a menüsor fölé és lássa el bryant osztályazonosítóval! – 2p
+
+
+A következő beállításokat a styles.css stíluslapon végezze, új szelektorok hozzáadásával vagy a meglévők bővítésével! Az arany, lila és fekete színeket minden esetben változóval használja!
+
+------------------------------------------------CSS----------------------------------------------
+
+
+
+15.pont 1-8. sor⦁	Hívja be a Poppins betűtípus Regular és Bold verzióját (a „fonts” mappában találja őket!)! – 2p
+
+16.pont 10-15. sor ⦁	Vegye fel a weboldal színeit a következő változókba: arany, lila, fekete! A színek hexadecimális kódjait megtalálja a styles.css állományban! – 2p
+
+17.pont 17-20. sor⦁	A teljes weboldalon Poppins-Regular betűtípussal jelenjenek meg a szövegek, másodlagos betűtípusnak Arialt adjon meg! – 1p
+
+18.pont 22-25. sor⦁	A fejlécek szövege Poppins-Bold betűtípussal jelenjen meg, másodlagos betűtípusnak Arialt adjon meg! – 1p 
+
+19.pont 27-32. sor⦁	A weboldal tartalmi részének maximális szélessége 1200 képpont, felső margója 0 legyen, és vízszintesen középen helyezkedjen el! – 2p
+
+20.pont 34-38. sor⦁	A container osztályazonosítójú elem, valamint a fejléc és a lábléc háttérszíne arany legyen! – 1p
+
+21.pont 40-42. sor⦁	A bekezdések igazítása legyen sorkizárt! – 1p
+
+22.pont 44-49. sor⦁	Az összes címsor lila színű szövegezést kapjon, illetve a weboldal törzsének háttérszíne legyen fekete! – 1p
+
+23.pont 51-54. sor⦁	A h1 és h2-es címsorszintű elemek legyenek középre igazítva – 1p
+
+24.pont 56-61. sor⦁	A menüsor kapjon 20 képpontos lekerekítést és lila háttérszínezést! – 2p
+
+25.pont 63-67. sor⦁	Az összes, táblázaton kívül szereplő “NBA” szó, legyen félkövér és lila színűre színezett! Ehhez az index.html fájlt is használnia kell, de a stílusbeállításokat a styles.css állományban végezze! – 2p
+
+26.pont 69-76. sor⦁	A bryant osztályazonosítójú kép legyen 200 képpont széles, középre igazított, 20 képpontos alsó és felső margóval rendelkezzen és 2 képpont vastag, folytonos, fekete szegéllyel legyen ellátva! – 2p

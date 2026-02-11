@@ -1,0 +1,104 @@
+/*********
+Színek: fekete: #000; lila: #552583; arany: #FDB927;
+***********/
+
+:root {
+	--fekete: #000;
+	--lila: #552583;
+	--arany: #FDB927;
+}
+
+
+@font-face {
+	font-family: PoppinsRegular;
+	src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: PoppinsBold;
+	src: url(../fonts/Poppins-Bold.ttf);
+}
+
+h1, h2 {
+	font-family: PoppinsBold, Arial;
+	color: var(--lila);
+	text-align: center;
+}
+
+body {background-color: var(--fekete);}
+
+.container, footer, header {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: var(--arany);
+	font-family: PoppinsRegular, Arial;
+    padding: 20px;
+    border-left: 2px solid var(--lila);
+    border-right: 2px solid var(--lila);
+}
+header {
+    border-bottom: 2px dashed #aaa;
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+	text-align: justify;
+}
+
+section{
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(odd) {
+    background-color: #aaa;
+}
+
+th {
+    width: 50%;
+}
+
+td, th {
+    padding: 10px;
+    border: 2px solid var(--fekete);
+}
+
+img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid var(--lila);
+}
+
+.nav-link {
+    color: var(--arany);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.bg-menu {
+	border-radius: 20px;
+	color: var(--arany);
+    background-color: var(--lila);
+}
+
+img.bryant {
+	width: 200px;
+	display: block;
+	margin: 20px auto;
+    border-radius: 20px;
+	border: 2px solid black;
+}
+
+.nba {font-weight: bold; color: var(--lila);}
+
+
